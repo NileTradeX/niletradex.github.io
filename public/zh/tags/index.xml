@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on NileTradeX 博客</title>
+    <link>http://localhost:1313/zh/tags/</link>
+    <description>Recent content in Tags on NileTradeX 博客</description>
+    <image>
+      <title>NileTradeX 博客</title>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.129.0</generator>
+    <language>zh</language>
+    <copyright>NileTradeX</copyright>
+    <lastBuildDate>Mon, 22 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/zh/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EKS</title>
+      <link>http://localhost:1313/zh/tags/eks/</link>
+      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/tags/eks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Terraform</title>
+      <link>http://localhost:1313/zh/tags/terraform/</link>
+      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/tags/terraform/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

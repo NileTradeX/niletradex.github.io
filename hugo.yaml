@@ -1,0 +1,191 @@
+baseURL: "https://niletradex.github.io"
+title: NileTradeX
+copyright: "© [NileTradeX](https://github.com/NileTradeX)"
+paginate: 5
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts", "papermod"]
+
+minify:
+  disableXML: true
+  # minifyOutput: true
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Blog
+          url: posts
+          weight: 5
+        - name: Archive
+          url: archives
+          weight: 5
+        - name: Search
+          url: search/
+          weight: 10
+        - name: Tags
+          url: tags/
+          weight: 10
+
+  zh:
+    languageName: "中文"
+    weight: 2
+    title: NileTradeX 博客
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: 博客
+          url: posts
+          weight: 5
+        - name: 归档
+          url: archives
+          weight: 5
+        - name: 标签
+          url: tags
+          weight: 10
+        - name: 分类
+          url: categories
+          weight: 10
+
+    # custom params for each language should be under [langcode].parms - hugo v0.120.0
+    params:
+      languageAltTitle: zh
+      profileMode:
+        enabled: true
+        title: NileTradeX
+        imageUrl: "https://avatars.githubusercontent.com/u/159221618?s=200&v=4"
+        imageTitle: NileTradeX image
+        # imageWidth: 120
+        # imageHeight: 120
+        subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
+        buttons:
+          - name: 博客
+            url: posts
+          - name: GitHub
+            url: https://github.com/NileTradeX
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: "NileTradeX - https://github.com/NileTradeX"
+  author: NileTradeX Team
+  # author: ["Me", "You"] # multiple authors
+
+  defaultTheme: auto
+  # disableThemeToggle: true
+  ShowShareButtons: true
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  # comments: false
+  images: ["images/papermod-cover.png"]
+
+  profileMode:
+    enabled: true
+    title: NileTradeX
+    imageUrl: "https://avatars.githubusercontent.com/u/159221618?s=200&v=4"
+    imageTitle: NileTradeX image
+    # imageWidth: 120
+    # imageHeight: 120
+    buttons:
+      - name: Blog
+        url: posts
+      - name: GitHub
+        url: https://github.com/NileTradeX
+
+
+  socialIcons:
+    - name: github
+      title: View Source on Github
+      url: "https://github.com/NileTradeX"
+
+  editPost:
+    URL: "https://github.com/NileTradeX/niletradex.github.io/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  assets:
+    disableHLJS: true
+  #     favicon: "<link / abs url>"
+  #     favicon16x16: "<link / abs url>"
+  #     favicon32x32: "<link / abs url>"
+  #     apple_touch_icon: "<link / abs url>"
+  #     safari_pinned_tab: "<link / abs url>"
+
+  # cover:
+  #     hidden: true # hide everywhere but not in structured data
+  #     hiddenInList: true # hide on list pages and home
+  #     hiddenInSingle: true # hide on single page
+
+  # fuseOpts:
+  #     isCaseSensitive: false
+  #     shouldSort: true
+  #     location: 0
+  #     distance: 1000
+  #     threshold: 0.4
+  #     minMatchCharLength: 0
+  #     keys: ["title", "permalink", "summary", "content"]
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
+
+# privacy:
+#   vimeo:
+#     disabled: false
+#     simple: true
+
+#   twitter:
+#     disabled: false
+#     enableDNT: true
+#     simple: true
+
+#   instagram:
+#     disabled: false
+#     simple: true
+
+#   youtube:
+#     disabled: false
+#     privacyEnhanced: true
+
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
