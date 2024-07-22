@@ -7,10 +7,8 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "Desc Text."
+description: ""
 disableHLJS: false # to disable highlightjs
-disableShare: false
-disableHLJS: false
 hideSummary: false
 searchHidden: true
 ShowReadingTime: true
@@ -20,8 +18,6 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 ---
-
-# 使用 Terraform 部署 EKS 集群
 
 ## 先决条件
 
