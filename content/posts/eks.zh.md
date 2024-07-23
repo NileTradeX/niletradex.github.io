@@ -2,21 +2,11 @@
 title: "使用 Terraform 部署 EKS 集群"
 date: "2024-07-22"
 tags: ["Terraform","EKS"]
-showToc: true
-TocOpen: false
-draft: false
-hidemeta: false
-comments: false
 description: ""
-disableHLJS: false # to disable highlightjs
-hideSummary: false
-searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ShowWordCount: true
-ShowRssButtonInSectionTermList: true
-UseHugoToc: true
 ---
 
 ## 先决条件
@@ -25,17 +15,17 @@ UseHugoToc: true
 
 要运行这个 Terraform 项目，您将需要：
 
-- [Terraform](vscode-file://vscode-app/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/electron-sandbox/workbench/workbench.html) v1.8+
-- 一个 [AWS 账户](vscode-file://vscode-app/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/electron-sandbox/workbench/workbench.html)
-- AWS CLI v2.7.0/v1.24.0 或更新版本，[已安装](vscode-file://vscode-app/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/electron-sandbox/workbench/workbench.html)并[已配置](vscode-file://vscode-app/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/electron-sandbox/workbench/workbench.html)
-- [AWS IAM Authenticator](vscode-file://vscode-app/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/electron-sandbox/workbench/workbench.html)
-- [kubectl](vscode-file://vscode-app/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/electron-sandbox/workbench/workbench.html) v1.24.0 或更新版本
+- [Terraform](https://developer.hashicorp.com/terraform/install) v1.8+
+- 一个 [AWS 账户](https://portal.aws.amazon.com/billing/signup?nc2=h_ct&src=default&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/start)
+- AWS CLI v2.7.0/v1.24.0 或更新版本，[已安装](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)并[已配置](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)
+- [AWS IAM Authenticator](https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.html)
+- [kubectl](https://kubernetes.io/docs/tasks/tools/) v1.24.0 或更新版本
 
 ## 安装
 
-- [Terraform](vscode-file://vscode-app/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/electron-sandbox/workbench/workbench.html) v1.8+
-- [AWS CLI](vscode-file://vscode-app/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/electron-sandbox/workbench/workbench.html) v2.7.0/v1.24.0 或更新版本
-- [kubectl](vscode-file://vscode-app/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/electron-sandbox/workbench/workbench.html) v1.24.0 或更新版本
+- [Terraform](https://developer.hashicorp.com/terraform/install) v1.8+
+- [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) v2.7.0/v1.24.0 或更新版本
+- [kubectl](https://kubernetes.io/docs/tasks/tools/) v1.24.0 或更新版本
 
 ## AWS 配置
 

@@ -77,6 +77,8 @@ languages:
         buttons:
           - name: 博客
             url: posts
+          - name: 工作交接文档目录
+            url: posts/work-handover-documentation
           - name: GitHub
             url: "https://github.com/NileTradeX/niletradex.github.io"
 
@@ -118,6 +120,8 @@ params:
     buttons:
       - name: Blog
         url: posts
+      - name: Work Handover Documentation
+        url: posts/work-handover-documentation
       - name: GitHub
         url: "https://github.com/NileTradeX/niletradex.github.io"
 
@@ -128,7 +132,7 @@ params:
       url: "https://github.com/NileTradeX"
 
   editPost:
-    URL: "https://github.com/NileTradeX/niletradex.github.io/content"
+    URL: "https://github.com/NileTradeX/niletradex.github.io/blob/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
