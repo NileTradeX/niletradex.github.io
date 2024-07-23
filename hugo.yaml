@@ -77,7 +77,7 @@ languages:
 
           3. [部署 Loki 收集 EKS 集群日志](https://niletradex.github.io/posts/zh/loki/)
 
-          4. EKS 集群部署 Prometheus
+          4. [EKS 集群部署 Prometheus](https://niletradex.github.io/posts/zh/prometheus/)
 
           5. EKS 集群部署 Grafana
 
@@ -92,6 +92,8 @@ languages:
           10. MongoDB 集群部署
 
           11. VPN 代理服务器部署安装
+
+          12. [使用 Helm 在 EKS 集群部署 Promtail](https://niletradex.github.io/posts/zh/promtail/)
 
           ## LipaLater
 
@@ -161,7 +163,7 @@ params:
 
       3. [Deploy Loki to collect EKS cluster logs](https://niletradex.github.io/posts/loki/)
 
-      4. Deploy Prometheus in the EKS cluster
+      4. [Deploy Prometheus in the EKS cluster](https://niletradex.github.io/posts/prometheus/)
 
       5. Deploy Grafana in the EKS cluster
 
@@ -176,6 +178,8 @@ params:
       10. MongoDB cluster deployment
 
       11. Deploy the VPN proxy server
+
+      12. [Deploy Promtail in EKS cluster using Helm](https://niletradex.github.io/posts/promtail/)
 
       ## LipaLater
 

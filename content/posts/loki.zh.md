@@ -1,5 +1,5 @@
 ---
-title: "Deploy Loki to collect EKS cluster logs"
+title: "使用 Helm 在 EKS 集群部署 Loki 收集 EKS 集群日志"
 date: "2024-07-23"
 tags: ["Loki","EKS"]
 description: ""
@@ -65,8 +65,6 @@ write:
   replicas: 0
 ```
 
-根据你的需求修改配置，例如存储类型、持久化存储等。
-
 #### 3. 使用 Helm 部署 Loki
 
 使用 Helm 安装 Loki 到你的 EKS 集群中：
@@ -85,19 +83,39 @@ helm upgrade --install loki --values  values.yaml --namespace=loki grafana/loki
 kubectl get pods -n loki
 ```
 
+```
+> kubectl get pods -n loki
+NAME                          READY   STATUS    RESTARTS   AGE
+loki-0                        1/1     Running   0          7d
+loki-canary-2c2jm             1/1     Running   0          7d6h
+loki-canary-5gc5d             1/1     Running   0          7d6h
+loki-canary-dvbgj             1/1     Running   0          7d6h
+loki-canary-xrvsh             1/1     Running   0          7d1h
+loki-chunks-cache-0           2/2     Running   0          7d23h
+loki-gateway-b8957b47-2zrmb   1/1     Running   0          7d23h
+loki-results-cache-0          2/2     Running   0          29h
+```
 确保所有的 Pods 的状态为 `Running`。
 
 #### 5. 访问 Loki
 
-可以通过暴露 Loki 服务的方式访问 Loki 实例，例如通过 NodePort、LoadBalancer 或者 Ingress。
+可以通过 Loki 服务访问 Loki 实例，例如 http://loki-gateway.loki.svc.cluster.local 这个地址会在后续配置 grafana 数据源时用到。
+
+```
+> kubectl get service -n loki
+NAME                 TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)              AGE
+loki                 ClusterIP   172.20.114.51    <none>        3100/TCP,9095/TCP    7d23h
+loki-canary          ClusterIP   172.20.187.211   <none>        3500/TCP             7d23h
+loki-chunks-cache    ClusterIP   None             <none>        11211/TCP,9150/TCP   7d23h
+loki-gateway         ClusterIP   172.20.198.116   <none>        80/TCP               7d23h
+loki-headless        ClusterIP   None             <none>        3100/TCP             7d23h
+loki-memberlist      ClusterIP   None             <none>        7946/TCP             7d23h
+loki-results-cache   ClusterIP   None             <none>        11211/TCP,9150/TCP   7d23h
+```
+
 
 ### 结论
 
-通过这篇文章，你学会了如何使用 Helm 在 Amazon EKS 上部署 Loki 日志聚合系统。你可以进一步扩展这个配置，根据你的需求和环境进行定制和优化。
+我们已经使用 Helm 在 EKS 集群部署了 Loki，但是这并不能收集 EKS 所有 Pod 的日志，后续我们还需要安装 `Promtail` 来收集所有 Pod 的日志。
 
 ------
-
-根据你的具体情况，可能需要调整一些细节，比如存储配置、网络访问方式等。希望这可以帮助到你开始在 EKS 上部署 Loki！
-
-
-

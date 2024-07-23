@@ -85,14 +85,39 @@ Check if the Loki-related pods are running properly:
 kubectl get pods -n loki
 ```
 
+```
+> kubectl get pods -n loki
+NAME                          READY   STATUS    RESTARTS   AGE
+loki-0                        1/1     Running   0          7d
+loki-canary-2c2jm             1/1     Running   0          7d6h
+loki-canary-5gc5d             1/1     Running   0          7d6h
+loki-canary-dvbgj             1/1     Running   0          7d6h
+loki-canary-xrvsh             1/1     Running   0          7d1h
+loki-chunks-cache-0           2/2     Running   0          7d23h
+loki-gateway-b8957b47-2zrmb   1/1     Running   0          7d23h
+loki-results-cache-0          2/2     Running   0          29h
+```
+
 Ensure all pods are in the `Running` state.
 
 #### 5. Access Loki
 
-Expose the Loki service to access the Loki instance, such as via NodePort, LoadBalancer, or Ingress.
+Loki instances can be accessed through the Loki service, e.g. http://loki-gateway.loki.svc.cluster.local This address will be used when configuring the grafana data source later.
+
+```
+> kubectl get service -n loki
+NAME                 TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)              AGE
+loki                 ClusterIP   172.20.114.51    <none>        3100/TCP,9095/TCP    7d23h
+loki-canary          ClusterIP   172.20.187.211   <none>        3500/TCP             7d23h
+loki-chunks-cache    ClusterIP   None             <none>        11211/TCP,9150/TCP   7d23h
+loki-gateway         ClusterIP   172.20.198.116   <none>        80/TCP               7d23h
+loki-headless        ClusterIP   None             <none>        3100/TCP             7d23h
+loki-memberlist      ClusterIP   None             <none>        7946/TCP             7d23h
+loki-results-cache   ClusterIP   None             <none>        11211/TCP,9150/TCP   7d23h
+```
 
 ### Conclusion
 
-In this article, you have learned how to deploy the Loki logging aggregation system on Amazon EKS using Helm. You can further extend this configuration and customize it according to your needs and environment.
+We have deployed Loki to the EKS cluster using Helm, but this does not collect logs from all the EKS pods, so we will need to install `Promtail` to collect logs from all the pods.
 
-
+------
