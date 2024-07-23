@@ -66,8 +66,48 @@ languages:
     # custom params for each language should be under [langcode].parms - hugo v0.120.0
     params:
       languageAltTitle: zh
+      homeInfoParams:
+        Title: "工作交接文档列表"
+        Content: >
+          ## GreatWay
+
+          1. [CRM 系统代码交接文档](https://niletradex.github.io/posts/zh/crm/)
+
+          2. [使用 Terraform 部署 EKS 集群](https://niletradex.github.io/posts/zh/eks/)
+
+          3. [部署 Loki 收集 EKS 集群日志](https://niletradex.github.io/posts/zh/loki/)
+
+          4. EKS 集群部署 Prometheus
+
+          5. EKS 集群部署 Grafana
+
+          6. Grafana 配置 Prometheus 和 Loki 数据源
+
+          7. 在 Grafana 创建 Dashboard
+
+          8. EFS 存储安装以及日志文件备份
+
+          9. RocketMQ 集群部署
+
+          10. MongoDB 集群部署
+
+          11. VPN 代理服务器部署安装
+
+          ## LipaLater
+
+          1. [lipalater-loans 源代码](https://github.com/NileTradeX/lipalater-loans)
+
+          2. [lipalater-loan 工程交接文档](https://niletradex.github.io/posts/zh/lipalater-loans/)
+
+          3. [LMS 源代码](https://github.com/NileTradeX/loan-management)
+
+          4. [LMS 系统代码交接文档](https://niletradex.github.io/posts/zh/loan-management/)
+
+          5. [LMS 系统参考的开源项目源代码](https://github.com/apache/fineract)
+
+      
       profileMode:
-        enabled: true
+        enabled: false
         title: NileTradeX 博客
         imageUrl: "https://avatars.githubusercontent.com/u/159221618?s=200&v=4"
         imageTitle: NileTradeX image
@@ -110,8 +150,49 @@ params:
   # comments: false
   images: ["https://avatars.githubusercontent.com/u/159221618"]
 
+  homeInfoParams:
+    Title: "Work Handover Documentation List"
+    Content: >
+      ## GreatWay
+
+      1. [CRM system code handover documentation](https://niletradex.github.io/posts/crm/)
+
+      2. [Deploy the EKS cluster using Terraform](https://niletradex.github.io/posts/eks/)
+
+      3. [Deploy Loki to collect EKS cluster logs](https://niletradex.github.io/posts/loki/)
+
+      4. Deploy Prometheus in the EKS cluster
+
+      5. Deploy Grafana in the EKS cluster
+
+      6. Grafana configures Prometheus and Loki data sources
+
+      7. Create Dashboards in Grafana
+
+      8. EFS storage installation and log file backup
+
+      9. RocketMQ cluster deployment
+
+      10. MongoDB cluster deployment
+
+      11. Deploy the VPN proxy server
+
+      ## LipaLater
+
+      1. [lipalater-loans code](https://github.com/NileTradeX/lipalater-loans)
+
+      2. [lipalater-loan project code handover documentation](https://niletradex.github.io/posts/lipalater-loans/)
+
+      3. [LMS code](https://github.com/NileTradeX/loan-management)
+
+      4. [LMS system code handover documentation](https://niletradex.github.io/posts/loan-management/)
+
+      5. [LMS system reference open source project code](https://github.com/apache/fineract)
+
+
+
   profileMode:
-    enabled: true
+    enabled: false
     title: NileTradeX Blog
     imageUrl: "https://avatars.githubusercontent.com/u/159221618?s=200&v=4"
     imageTitle: NileTradeX image
@@ -130,6 +211,9 @@ params:
     - name: github
       title: View Source on Github
       url: "https://github.com/NileTradeX"
+    - name: terraform
+      title: terraform
+      url: "https://developer.hashicorp.com/terraform"
 
   editPost:
     URL: "https://github.com/NileTradeX/niletradex.github.io/blob/main/content"

@@ -33,19 +33,19 @@ To run the Terraform project, you will need:
 
 ## Deployment
 
-1. Initialize your Terraform workspace, which will download the provider plugins for AWS:
+2. Initialize your Terraform workspace, which will download the provider plugins for AWS:
 ````sh
 terraform init
 ````
-1. Validate the Terraform configuration files:
+3. Validate the Terraform configuration files:
 ````sh
 terraform validate
 ````
-1. Plan your changes:
+4. Plan your changes:
 ````sh
 terraform plan
 ````
-1. Apply your changes:
+5. Apply your changes:
 ````sh
 terraform apply
 ````
