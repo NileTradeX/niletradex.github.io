@@ -138,7 +138,7 @@ params:
   author: NileTradeX Team
   # author: ["Me", "You"] # multiple authors
 
-  defaultTheme: auto
+  defaultTheme: light # light, dark, auto
   # disableThemeToggle: true
   ShowShareButtons: true
   ShowReadingTime: true
