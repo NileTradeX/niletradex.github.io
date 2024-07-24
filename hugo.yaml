@@ -79,11 +79,11 @@ languages:
 
           4. [EKS 集群部署 Prometheus](https://niletradex.github.io/posts/zh/prometheus/)
 
-          5. EKS 集群部署 Grafana
+          5. [EKS 集群部署 Grafana](https://niletradex.github.io/posts/zh/grafana/)
 
-          6. Grafana 配置 Prometheus 和 Loki 数据源
+          6. [Grafana 配置 Prometheus 和 Loki 数据源](https://niletradex.github.io/posts/zh/grafana-datasource/)
 
-          7. 在 Grafana 创建 Dashboard
+          7. [在 Grafana 创建 Dashboard](https://niletradex.github.io/posts/zh/grafana-dashboard/)
 
           8. EFS 存储安装以及日志文件备份
 
@@ -165,11 +165,11 @@ params:
 
       4. [Deploy Prometheus in the EKS cluster](https://niletradex.github.io/posts/prometheus/)
 
-      5. Deploy Grafana in the EKS cluster
+      5. [Deploy Grafana in the EKS cluster](https://niletradex.github.io/posts/grafana/)
 
-      6. Grafana configures Prometheus and Loki data sources
+      6. [Grafana configures Prometheus and Loki data sources](https://niletradex.github.io/posts/grafana-datasource/)
 
-      7. Create Dashboards in Grafana
+      7. [Create Dashboards in Grafana](https://niletradex.github.io/posts/grafana-dashboard/)
 
       8. EFS storage installation and log file backup
 
