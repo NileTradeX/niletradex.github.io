@@ -71,39 +71,41 @@ languages:
         Content: >
           ## GreatWay
 
-          1. [CRM 系统代码交接文档](https://niletradex.github.io/posts/zh/crm/)
+          1. [CRM 系统代码交接文档](https://niletradex.github.io/zh/posts/crm/)
 
-          2. [使用 Terraform 部署 EKS 集群](https://niletradex.github.io/posts/zh/eks/)
+          2. [使用 Terraform 部署 EKS 集群](https://niletradex.github.io/zh/posts/eks/)
 
-          3. [部署 Loki 收集 EKS 集群日志](https://niletradex.github.io/posts/zh/loki/)
+          3. [部署 Loki 收集 EKS 集群日志](https://niletradex.github.io/zh/posts/loki/)
 
-          4. [EKS 集群部署 Prometheus](https://niletradex.github.io/posts/zh/prometheus/)
+          4. [EKS 集群部署 Prometheus](https://niletradex.github.io/zh/posts/prometheus/)
 
-          5. [EKS 集群部署 Grafana](https://niletradex.github.io/posts/zh/grafana/)
+          5. [EKS 集群部署 Grafana](https://niletradex.github.io/zh/posts/grafana/)
 
-          6. [Grafana 配置 Prometheus 和 Loki 数据源](https://niletradex.github.io/posts/zh/grafana-datasource/)
+          6. [Grafana 配置 Prometheus 和 Loki 数据源](https://niletradex.github.io/zh/posts/grafana-datasource/)
 
-          7. [在 Grafana 创建 Dashboard](https://niletradex.github.io/posts/zh/grafana-dashboard/)
+          7. [在 Grafana 创建 Dashboard](https://niletradex.github.io/zh/posts/grafana-dashboard/)
 
-          8. [使用 EFS 存储应用日志](https://niletradex.github.io/posts/zh/efs-storage-log/)
+          8. [使用 EFS 存储应用日志](https://niletradex.github.io/zh/posts/efs-storage-log/)
 
-          9. RocketMQ 集群部署
+          9. [在 EKS 集群使用 Helm 部署 RocketMQ 集群](https://niletradex.github.io/zh/posts/rocketmq/)
 
           10. MongoDB 集群部署
 
           11. VPN 代理服务器部署安装
 
-          12. [使用 Helm 在 EKS 集群部署 Promtail](https://niletradex.github.io/posts/zh/promtail/)
+          12. [使用 Helm 在 EKS 集群部署 Promtail](https://niletradex.github.io/zh/posts/promtail/)
+
+          13. [在 EC2 实例挂载 EFS 存储，并搭建 Caddy 实现在线浏览文件](https://niletradex.github.io/zh/posts/efs-file-caddy/)
 
           ## LipaLater
 
           1. [lipalater-loans 源代码](https://github.com/NileTradeX/lipalater-loans)
 
-          2. [lipalater-loan 工程交接文档](https://niletradex.github.io/posts/zh/lipalater-loans/)
+          2. [lipalater-loan 工程交接文档](https://niletradex.github.io/zh/posts/lipalater-loans/)
 
           3. [LMS 源代码](https://github.com/NileTradeX/loan-management)
 
-          4. [LMS 系统代码交接文档](https://niletradex.github.io/posts/zh/loan-management/)
+          4. [LMS 系统代码交接文档](https://niletradex.github.io/zh/posts/loan-management/)
 
           5. [LMS 系统参考的开源项目源代码](https://github.com/apache/fineract)
 
@@ -180,6 +182,8 @@ params:
       11. Deploy the VPN proxy server
 
       12. [Deploy Promtail in EKS cluster using Helm](https://niletradex.github.io/posts/promtail/)
+
+      13. [Mount EFS storage on EC2 instance and build Caddy for online file browsing](https://niletradex.github.io/posts/efs-file-caddy/)
 
       ## LipaLater
 
