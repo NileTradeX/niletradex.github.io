@@ -43,10 +43,25 @@ Grafana is an open-source platform widely used for monitoring and visualizing da
 2. **Alerting**: Grafana allows you to set up alert rules in panels that trigger notifications when certain conditions are met. You can configure alerts in the `Alert` tab of the panel.
 3. **Sharing and Exporting**: You can share your dashboard with other users or export it as a JSON file for backup and migration. Click the `Share` button in the top right corner and choose the appropriate option.
 
+### Import Panels
+
+1. When creating a new panel, select Import Panel
+   ![grafana-import1](/img/grafana-import1.png)
+
+2. In Grafana's panel choose an appropriate panel based on your data source, `https://grafana.com/grafana/dashboards/`
+   ![grafana-import2](/img/grafana-import2.png)
+
+3. Click Select Panel, drop down the page to find the panel id, copy the id
+   ![grafana-import3](/img/grafana-import3.png)
+
+4. On the Grafana Import Panel page, enter the id and click the load button
+   ![grafana-import4](/img/grafana-import4.png)
+
+5. Select the appropriate data source and click the import button
+   ![grafana-import5](/img/grafana-import5.png)
+
 ### Conclusion
 
 By following the steps outlined above, you can easily create a powerful dashboard in Grafana to monitor and visualize various data. Grafana offers a wide range of configuration options and plugins, allowing you to customize your dashboards to meet your specific needs, thereby enhancing data monitoring and analysis efficiency.
-
-I hope this guide provides useful direction for creating dashboards in Grafana. If you encounter any issues, refer to the official Grafana documentation or seek help from the community.
 
 ------

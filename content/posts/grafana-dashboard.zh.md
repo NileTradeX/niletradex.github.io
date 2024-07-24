@@ -42,11 +42,26 @@ Grafana 是一个开源的平台，广泛用于监控和可视化数据。通过
 1. **模板变量**：Grafana 支持在 Dashboard 中使用模板变量，使您可以创建动态和可重复使用的 Dashboard。您可以在 `Settings` -> `Variables` 中添加和配置变量。
 2. **警报（Alerting）**：Grafana 允许您在面板中设置警报规则，当某些条件满足时，触发通知。您可以在面板的 `Alert` 选项卡中配置警报。
 3. **共享和导出**：您可以将创建好的 Dashboard 分享给其他用户，或者导出为 JSON 文件进行备份和迁移。点击右上角的 `Share` 按钮，然后选择相应的选项进行操作。
+   
+### 导入面板
+
+1. 在新建面板时，选择导入面板
+![grafana-import1](/img/grafana-import1.png)
+
+2. 在 Grafana 的面板根据你的数据源选择一个合适的面板，`https://grafana.com/grafana/dashboards/`
+![grafana-import2](/img/grafana-import2.png)
+
+3. 点开选择面板，下拉页面找到面板 id，复制 id
+![grafana-import3](/img/grafana-import3.png)
+
+4. 在 Grafana 导入面板页面输入 id 并点击 load 按钮
+   ![grafana-import4](/img/grafana-import4.png)
+
+5. 选择合适的数据源，点击 import 按钮
+   ![grafana-import5](/img/grafana-import5.png)
 
 ### 结论
 
 通过上述步骤，您可以在 Grafana 中轻松创建一个功能强大的 Dashboard，用于监控和可视化各种数据。Grafana 提供了丰富的配置选项和插件，您可以根据实际需求进行个性化设置，提升数据监控和分析的效率。
-
-希望本文对您在 Grafana 中创建 Dashboard 提供了有用的指导。如果您遇到任何问题，可以查阅 Grafana 官方文档 或在社区中寻求帮助。
 
 ------
