@@ -1,5 +1,5 @@
 ---
-title: "Deploy Loki to collect EKS cluster logs"
+title: "Deploying Promtail on an EKS Cluster using Helm"
 date: "2024-07-23"
 tags: ["Promtail","EKS"]
 description: ""

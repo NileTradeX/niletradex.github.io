@@ -1,5 +1,5 @@
 ---
-title: "使用 Helm 在 EKS 集群部署 Promtail"
+title: "Deploying Grafana in an EKS Cluster with Helm"
 date: "2024-07-23"
 tags: ["Grafana","EKS"]
 description: ""
@@ -8,8 +8,6 @@ ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ShowWordCount: true
 ---
-
-
 
 # Deploying Grafana in an EKS Cluster with Helm
 
