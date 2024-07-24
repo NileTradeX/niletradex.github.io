@@ -31,10 +31,10 @@ ShowWordCount: true
 
 1. 在 Grafana 仪表盘的左侧导航栏中，点击三杠图标（**配置**）。
 2. 选择 **Data Sources**（数据源）。
-   ![grafana-config](/img/grafana-config.png)
+   ![grafana-config](https://cdn.jsdelivr.net/gh/NileTradeX/NileTradeX.github.io@master/static/img/grafana-config.png)
 3. 点击页面右上角的 **Add data source**（添加数据源）按钮。
 4. 在出现的列表中，选择 **Prometheus**。
-   ![grafana-Prometheus](/img/grafana-Prometheus.png)
+   ![grafana-Prometheus](https://cdn.jsdelivr.net/gh/NileTradeX/NileTradeX.github.io@master/static/img/grafana-Prometheus.png)
 
 ### 3. 配置 Prometheus 数据源
 
@@ -42,13 +42,13 @@ ShowWordCount: true
 
    - **URL**: 输入 Prometheus 服务器的 URL（例如 `http://prometheus-server.prometheus.svc.cluster.local`）。
     
-    ![prometheus-datasource](/img/prometheus-datasource.png)
+    ![prometheus-datasource](https://cdn.jsdelivr.net/gh/NileTradeX/NileTradeX.github.io@master/static/img/prometheus-datasource.png)
 
 2. 点击页面底部的 **Save & Test** 按钮，验证配置是否成功。
 
 如果配置正确，您将看到 "Successfully queried the Prometheus API." 的提示消息。
 
-![prometheus-success](/img/prometheus-success.png)
+![prometheus-success](https://cdn.jsdelivr.net/gh/NileTradeX/NileTradeX.github.io@master/static/img/prometheus-success.png)
 
 ## 步骤二：配置 Loki 数据源
 
@@ -56,23 +56,23 @@ ShowWordCount: true
 
 1. 在 Grafana 仪表盘的左侧导航栏中，点击齿轮图标（**配置**）。
 2. 选择 **Data Sources**（数据源）。
-   ![grafana-config](/img/grafana-config.png)
+   ![grafana-config](https://cdn.jsdelivr.net/gh/NileTradeX/NileTradeX.github.io@master/static/img/grafana-config.png)
 3. 点击页面右上角的 **Add data source**（添加数据源）按钮。
 4. 在出现的列表中，选择 **Loki**。
-   ![grafana-loki](/img/grafana-loki.png)
+   ![grafana-loki](https://cdn.jsdelivr.net/gh/NileTradeX/NileTradeX.github.io@master/static/img/grafana-loki.png)
 
 ### 2. 配置 Loki 数据源
 
 1. 在 HTTP 部分，填写以下字段：
 
    - **URL**: 输入 Loki 服务器的 URL（例如 `http://loki-gateway.loki.svc.cluster.local`）。
-  ![loki-datasource](/img/loki-datasource.png)
+  ![loki-datasource](https://cdn.jsdelivr.net/gh/NileTradeX/NileTradeX.github.io@master/static/img/loki-datasource.png)
 
 2. 点击页面底部的 **Save & Test** 按钮，验证配置是否成功。
 
 如果配置正确，您将看到 "Data source successfully connected." 的提示消息。
 
-![loki-success](/img/loki-success.png)
+![loki-success](https://cdn.jsdelivr.net/gh/NileTradeX/NileTradeX.github.io@master/static/img/loki-success.png)
 
 ## 总结
 

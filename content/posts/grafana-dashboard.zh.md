@@ -46,19 +46,19 @@ Grafana 是一个开源的平台，广泛用于监控和可视化数据。通过
 ### 导入面板
 
 1. 在新建面板时，选择导入面板
-![grafana-import1](/img/grafana-import1.png)
+![grafana-import1](https://cdn.jsdelivr.net/gh/NileTradeX/NileTradeX.github.io@master/static/img/grafana-import1.png)
 
 2. 在 Grafana 的面板根据你的数据源选择一个合适的面板，`https://grafana.com/grafana/dashboards/`
-![grafana-import2](/img/grafana-import2.png)
+![grafana-import2](https://cdn.jsdelivr.net/gh/NileTradeX/NileTradeX.github.io@master/static/img/grafana-import2.png)
 
 3. 点开选择面板，下拉页面找到面板 id，复制 id
-![grafana-import3](/img/grafana-import3.png)
+![grafana-import3](https://cdn.jsdelivr.net/gh/NileTradeX/NileTradeX.github.io@master/static/img/grafana-import3.png)
 
 4. 在 Grafana 导入面板页面输入 id 并点击 load 按钮
-   ![grafana-import4](/img/grafana-import4.png)
+   ![grafana-import4](https://cdn.jsdelivr.net/gh/NileTradeX/NileTradeX.github.io@master/static/img/grafana-import4.png)
 
 5. 选择合适的数据源，点击 import 按钮
-   ![grafana-import5](/img/grafana-import5.png)
+   ![grafana-import5](https://cdn.jsdelivr.net/gh/NileTradeX/NileTradeX.github.io@master/static/img/grafana-import5.png)
 
 ### 结论
 

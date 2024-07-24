@@ -31,23 +31,23 @@ First, open your browser and log in to the Grafana web interface. Use your usern
 
 1. In the left-hand navigation panel of the Grafana dashboard, click on the gear icon (**Configuration**).
 2. Select **Data Sources**.
-   ![grafana-config](/img/grafana-config.png)
+   ![grafana-config](https://cdn.jsdelivr.net/gh/NileTradeX/NileTradeX.github.io@master/static/img/grafana-config.png)
 3. Click the **Add data source** button at the top right of the page.
 4. From the list that appears, select **Prometheus**.
-   ![grafana-Prometheus](/img/grafana-Prometheus.png)
+   ![grafana-Prometheus](https://cdn.jsdelivr.net/gh/NileTradeX/NileTradeX.github.io@master/static/img/grafana-Prometheus.png)
 
 ### 3. Configure Prometheus Data Source
 
 1. In the HTTP section, fill in the following fields:
 
    - **URL**: Enter the URL of your Prometheus server (e.g., `http://prometheus-server.prometheus.svc.cluster.local`).
-   ![prometheus-datasource](/img/prometheus-datasource.png) 
+   ![prometheus-datasource](https://cdn.jsdelivr.net/gh/NileTradeX/NileTradeX.github.io@master/static/img/prometheus-datasource.png) 
 
 2. Click the **Save & Test** button at the bottom of the page to verify the configuration.
 
 If the configuration is correct, you will see a "Successfully queried the Prometheus API." message.
 
-![prometheus-success](/img/prometheus-success.png)
+![prometheus-success](https://cdn.jsdelivr.net/gh/NileTradeX/NileTradeX.github.io@master/static/img/prometheus-success.png)
 
 ## Step 2: Configure Loki Data Source
 
@@ -55,23 +55,23 @@ If the configuration is correct, you will see a "Successfully queried the Promet
 
 1. In the left-hand navigation panel of the Grafana dashboard, click on the gear icon (**Configuration**).
 2. Select **Data Sources**.
-   ![grafana-config](/img/grafana-config.png)
+   ![grafana-config](https://cdn.jsdelivr.net/gh/NileTradeX/NileTradeX.github.io@master/static/img/grafana-config.png)
 3. Click the **Add data source** button at the top right of the page.
 4. From the list that appears, select **Loki**.
-   ![grafana-loki](/img/grafana-loki.png)
+   ![grafana-loki](https://cdn.jsdelivr.net/gh/NileTradeX/NileTradeX.github.io@master/static/img/grafana-loki.png)
 
 ### 2. Configure Loki Data Source
 
 1. In the HTTP section, fill in the following fields:
 
    - **URL**: Enter the URL of your Loki server (e.g., `http://loki-gateway.loki.svc.cluster.local`).
-   ![loki-datasource](/img/loki-datasource.png)
+   ![loki-datasource](https://cdn.jsdelivr.net/gh/NileTradeX/NileTradeX.github.io@master/static/img/loki-datasource.png)
 
 2. Click the **Save & Test** button at the bottom of the page to verify the configuration.
 
 If the configuration is correct, you will see a "Data source successfully connected." message.
 
-![loki-success](/img/loki-success.png)
+![loki-success](https://cdn.jsdelivr.net/gh/NileTradeX/NileTradeX.github.io@master/static/img/loki-success.png)
 
 ## Summary
 

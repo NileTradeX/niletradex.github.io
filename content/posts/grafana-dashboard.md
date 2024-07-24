@@ -46,19 +46,19 @@ Grafana is an open-source platform widely used for monitoring and visualizing da
 ### Import Panels
 
 1. When creating a new panel, select Import Panel
-   ![grafana-import1](/img/grafana-import1.png)
+   ![grafana-import1](https://cdn.jsdelivr.net/gh/NileTradeX/NileTradeX.github.io@master/static/img/grafana-import1.png)
 
 2. In Grafana's panel choose an appropriate panel based on your data source, `https://grafana.com/grafana/dashboards/`
-   ![grafana-import2](/img/grafana-import2.png)
+   ![grafana-import2](https://cdn.jsdelivr.net/gh/NileTradeX/NileTradeX.github.io@master/static/img/grafana-import2.png)
 
 3. Click Select Panel, drop down the page to find the panel id, copy the id
-   ![grafana-import3](/img/grafana-import3.png)
+   ![grafana-import3](https://cdn.jsdelivr.net/gh/NileTradeX/NileTradeX.github.io@master/static/img/grafana-import3.png)
 
 4. On the Grafana Import Panel page, enter the id and click the load button
-   ![grafana-import4](/img/grafana-import4.png)
+   ![grafana-import4](https://cdn.jsdelivr.net/gh/NileTradeX/NileTradeX.github.io@master/static/img/grafana-import4.png)
 
 5. Select the appropriate data source and click the import button
-   ![grafana-import5](/img/grafana-import5.png)
+   ![grafana-import5](https://cdn.jsdelivr.net/gh/NileTradeX/NileTradeX.github.io@master/static/img/grafana-import5.png)
 
 ### Conclusion
 
