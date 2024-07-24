@@ -85,7 +85,7 @@ languages:
 
           7. [在 Grafana 创建 Dashboard](https://niletradex.github.io/posts/zh/grafana-dashboard/)
 
-          8. EFS 存储安装以及日志文件备份
+          8. [使用 EFS 存储应用日志](https://niletradex.github.io/posts/zh/efs-storage-log/)
 
           9. RocketMQ 集群部署
 
@@ -171,7 +171,7 @@ params:
 
       7. [Create Dashboards in Grafana](https://niletradex.github.io/posts/grafana-dashboard/)
 
-      8. EFS storage installation and log file backup
+      8. [Using EFS to store application logs](https://niletradex.github.io/posts/efs-storage-log/)
 
       9. RocketMQ cluster deployment
 
