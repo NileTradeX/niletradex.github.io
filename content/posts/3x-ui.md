@@ -52,22 +52,22 @@ bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.
 ```
 ## Step 3: Configure inbound links
 
-Open the 3x-ui page in your browser, select ``Inbound List`` and click ``Add Inbound``.
+ - Open the 3x-ui page in your browser, select ``Inbound List`` and click ``Add Inbound``.
 
 ![3x-ui1](https://cdn.jsdelivr.net/gh/NileTradeX/NileTradeX.github.io@master/static/img/3x-ui1.png)
 
-Enter the inbound name in the comments and click `Add`.
+ - Enter the inbound name in the comments and click `Add`.
 
 ![3x-ui2](https://cdn.jsdelivr.net/gh/NileTradeX/NileTradeX.github.io@master/static/img/3x-ui2.png)
 
 ## Step 4: Configure the local client
 
-Click the `+` sign on the inbound link, then click the `! ` sign and copy the `URl`
+ - Click the `+` sign on the inbound link, then click the `! ` sign and copy the `URl`
 ![3x-ui3](https://cdn.jsdelivr.net/gh/NileTradeX/NileTradeX.github.io@master/static/img/3x-ui3.png)
 
-Open the local `V2BOX` client, click on `config`, click on the `+` sign, click on `Import v2ray uri from clipboard` !
+ - Open the local `V2BOX` client, click on `config`, click on the `+` sign, click on `Import v2ray uri from clipboard` !
 ![3x-ui4](https://cdn.jsdelivr.net/gh/NileTradeX/NileTradeX.github.io@master/static/img/3x-ui4.png)
 
-Go back to the `V2BOX` `home` page and click on the link.
+ - Go back to the `V2BOX` `home` page and click on the link.
 
 ------

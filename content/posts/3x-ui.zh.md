@@ -52,20 +52,20 @@ bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.
 ```
 ## 步骤三：配置入站链接
 
-浏览器打开 3x-ui 页面，选择`入站列表`，点击`添加入站 `
+ - 浏览器打开 3x-ui 页面，选择`入站列表`，点击`添加入站 `
 
 ![3x-ui1](https://cdn.jsdelivr.net/gh/NileTradeX/NileTradeX.github.io@master/static/img/3x-ui1.png)
 
-在备注输入入站名称，然后点击`添加`
+ - 在备注输入入站名称，然后点击`添加`
 
 ![3x-ui2](https://cdn.jsdelivr.net/gh/NileTradeX/NileTradeX.github.io@master/static/img/3x-ui2.png)
 
 ## 步骤四：配置本地客户端
 
-点击入站链接的`+`号，再点击`！`号，复制 `URl`
+ - 点击入站链接的`+`号，再点击`！`号，复制 `URl`
 ![3x-ui3](https://cdn.jsdelivr.net/gh/NileTradeX/NileTradeX.github.io@master/static/img/3x-ui3.png)
 
-打开本地 `V2BOX` 客户端，点击 `config`，点击`+`号，点击`从剪切板导入 v2ray uri`
+ - 打开本地 `V2BOX` 客户端，点击 `config`，点击`+`号，点击`从剪切板导入 v2ray uri`
 ![3x-ui4](https://cdn.jsdelivr.net/gh/NileTradeX/NileTradeX.github.io@master/static/img/3x-ui4.png)
 
-回到 `V2BOX` `home` 页点击链接即可
+ - 回到 `V2BOX` `home` 页点击链接即可
