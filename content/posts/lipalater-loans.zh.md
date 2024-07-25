@@ -110,4 +110,6 @@ lipalater-loans
  - `lipalater-loans-sdk`：为项目的 SDK，本工程是微服务工程，此 SDK 是为其他微服务调用所需的依赖。
  - `lipalater-loans-wallet`：为后续钱包拓展的服务，测试服务，没有实际应用。
 
+## 数据库结构
 
+数据库的结构文件，详细请参考 [SQL](https://cdn.jsdelivr.net/gh/NileTradeX/NileTradeX.github.io@master/static/sql/lipalater_loans.sql)
