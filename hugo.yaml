@@ -89,7 +89,7 @@ languages:
 
           9. [在 EKS 集群使用 Helm 部署 RocketMQ 集群](https://niletradex.github.io/zh/posts/rocketmq/)
 
-          10. MongoDB 集群部署
+          10. [在 EKS 集群上使用 Helm 部署 MongoDB Operator 并部署 MongoDB 集群](https://niletradex.github.io/zh/posts/mongodb/)
 
           11. VPN 代理服务器部署安装
 
@@ -175,9 +175,9 @@ params:
 
       8. [Using EFS to store application logs](https://niletradex.github.io/posts/efs-storage-log/)
 
-      9. RocketMQ cluster deployment
+      9. [Deploy RocketMQ cluster using Helm in EKS cluster](https://niletradex.github.io/posts/rocketmq/)
 
-      10. MongoDB cluster deployment
+      10. [Deploying MongoDB Operator on an EKS Cluster with Helm and Deploying a MongoDB Cluster](https://niletradex.github.io/posts/mongodb/)
 
       11. Deploy the VPN proxy server
 

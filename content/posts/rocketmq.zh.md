@@ -1,7 +1,7 @@
 ---
 title: "在 EKS 集群使用 Helm 部署 RocketMQ 集群"
-date: "2024-07-24"
-tags: ["EFS","EC2","Caddy"]
+date: "2024-07-25"
+tags: ["EFS","RocketMQ"]
 description: ""
 ShowReadingTime: true
 ShowBreadCrumbs: true
@@ -290,23 +290,32 @@ helm ls --namespace rocketmq
 
 部署完成后，验证 RocketMQ 集群是否正常运行：
 
-```
-bash
-复制代码
+```bash
 kubectl get pods --namespace rocketmq
 ```
 
 确保所有 pod 都处于 `Running` 状态。
 
-## 步骤七：访问 RocketMQ
-
-可以通过 Kubernetes 服务暴露 RocketMQ 的端点，以便外部访问。使用以下命令查看服务：
-
-```bash
-kubectl get svc --namespace rocketmq
+```
+kubectl get pods --namespace rocketmq
+NAME                                  READY   STATUS    RESTARTS   AGE
+rocketmq-broker-master-0              1/1     Running   0          8d
+rocketmq-broker-master-1              1/1     Running   0          8d
+rocketmq-broker-replica-id1-0         1/1     Running   0          2d23h
+rocketmq-broker-replica-id1-1         1/1     Running   0          8d
+rocketmq-dashboard-645d97c69b-2xmw6   1/1     Running   0          8d
+rocketmq-nameserver-0                 1/1     Running   0          8d
+rocketmq-nameserver-1                 1/1     Running   0          8d
+rocketmq-proxy-7dc9dc9d58-8fph9       1/1     Running   0          8d
+rocketmq-proxy-7dc9dc9d58-mgdwm       1/1     Running   0          8d
 ```
 
-根据需要，可以配置 `LoadBalancer` 或 `NodePort` 来暴露服务。
+## 步骤七：访问 RocketMQ
+
+在 Kubernetes 集群内访问可以通过 `rocketmq-proxy` 或者 `rocketmq-nameserver` 的 service 地址访问
+
+ - `rocketmq-proxy`：rocketmq-proxy.rocketmq.svc.cluster.local:8081
+ - `rocketmq-nameserver`：rocketmq-nameserver.rocketmq.svc.cluster.local:9876
 
 ## 常见问题排查
 
@@ -320,4 +329,6 @@ kubectl logs <pod_name> --namespace rocketmq
 
 ## 总结
 
-通过以上步骤，您应该能够在 EKS 集群上成功部署并运行 RocketMQ 集群。使用 Helm 大大简化了部署和管理工作，使得您可以更专注于应用层面的开发和优化。如果您有进一步的问题或需求，欢迎随时提问。
+通过以上步骤，您应该能够在 EKS 集群上成功部署并运行 RocketMQ 集群。使用 Helm 大大简化了部署和管理工作，使得您可以更专注于应用层面的开发和优化。
+
+------
