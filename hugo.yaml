@@ -91,7 +91,7 @@ languages:
 
           10. [在 EKS 集群上使用 Helm 部署 MongoDB Operator 并部署 MongoDB 集群](https://niletradex.github.io/zh/posts/mongodb/)
 
-          11. VPN 代理服务器部署安装
+          11. [VPN 代理服务器部署安装](https://niletradex.github.io/zh/posts/3x-ui/)
 
           12. [使用 Helm 在 EKS 集群部署 Promtail](https://niletradex.github.io/zh/posts/promtail/)
 
@@ -179,7 +179,7 @@ params:
 
       10. [Deploying MongoDB Operator on an EKS Cluster with Helm and Deploying a MongoDB Cluster](https://niletradex.github.io/posts/mongodb/)
 
-      11. Deploy the VPN proxy server
+      11. [Deploy the VPN proxy server](https://niletradex.github.io/posts/3x-ui/)
 
       12. [Deploy Promtail in EKS cluster using Helm](https://niletradex.github.io/posts/promtail/)
 
