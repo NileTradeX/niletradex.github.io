@@ -282,13 +282,6 @@ CREATE TABLE m_product (
 ```
 Structure file of the database, please refer to [SQL](https://cdn.jsdelivr.net/gh/NileTradeX/NileTradeX.github.io@master/static/sql/loan-management.sql) for details.
 
-## Usage Scenarios
-
-- **Microfinance Institutions (MFIs)**: help MFIs manage their loan and savings operations and improve operational efficiency.
-- **Credit unions**: supports credit unions in member management and financial operations.
-- **Financial technology companies**: provide a customisable financial services platform for fintech companies.
-- **Non-profit organisations**: support non-profit organisations to provide inclusive financial services.
-
 ## Related Documents
 
 [Official website](https://fineract.apache.org/)

@@ -236,9 +236,7 @@ Fineract 的数据库设计采用了关系型数据库，主要表结构包括�
 
 示例表结构：
 
-```
-sql
-复制代码
+```sql
 CREATE TABLE m_client (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     display_name VARCHAR(100),
@@ -285,14 +283,6 @@ CREATE TABLE m_product (
 
 数据库的结构文件，详细请参考 [SQL](https://cdn.jsdelivr.net/gh/NileTradeX/NileTradeX.github.io@master/static/sql/loan-management.sql)
 
-
-
-## 使用场景
-
-- **微型金融机构**：帮助微型金融机构管理其贷款和储蓄业务，提高运营效率。
-- **信用合作社**：支持信用合作社进行成员管理和财务操作。
-- **金融科技公司**：为金融科技公司提供可定制的金融服务平台。
-- **非营利组织**：支持非营利组织提供普惠金融服务。
 
 ## 相关文档
 
